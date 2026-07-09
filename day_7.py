@@ -80,7 +80,7 @@ def build_rag_chain(html_path: str, api_key: str, chunk_size: int, chunk_overlap
     os.environ["OPENAI_API_KEY"] = api_key
 
     # Load the HTML document
-    loader = UnstructuredHTMLLoader(file_path=html_path)
+    loader = UnstructuredHTMLLoader(How to use the various modes of the washing machine _ Samsung LEVANT.html)
     machine_docs = loader.load()
 
     # Split into chunks
